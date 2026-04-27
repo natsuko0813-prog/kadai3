@@ -1,18 +1,17 @@
 @charset "utf-8";
 
 
-.header{
-    display: flex;
-    justify-content: center;
-    max-width: 960px;
-    background-color: #eeeeee;
-}
+
 h1{
     text-align: center;
+    color: rgba(6, 149, 102, 0.561);
 }
 
 ul{
+max-width: 960px;
 display:flex;
+background-color: #eeeeee;
+margin: 0 auto;
 }
 li{
     margin-left:40px;
@@ -21,14 +20,12 @@ li{
 
 .flex-box{
   margin: 15px;
-  background-color: rgb(139, 134, 134);
-  width: 300px;
-  height: 280px;
+  background-color: white;
 }
 
 .title {
   margin: 10px;  
-  border-left: 10px solid #333;
+  border-left: 10px solid rgba(6, 149, 102, 0.561);
 }
 
 @media screen and (max-width: 400px){
